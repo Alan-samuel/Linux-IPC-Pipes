@@ -1,7 +1,9 @@
 Linux-IPC--Pipes
+
 Linux-IPC-Pipes
 
 Ex03-Linux IPC - Pipes
+
 AIM:
 To write a C program that illustrate communication between two process using unnamed and named pipes
 
@@ -71,11 +73,15 @@ n=read(rfd,buff,2000);
 buff[n]='\0';
 printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 }
+
 OUTPUT:
 ![image](https://github.com/Alan-samuel/Linux-IPC-Pipes/assets/147091803/72c83ca3-0838-4b53-a464-f83a07f926d8)
 
 
 C Program that illustrate communication between two process using named pipes using Linux API system calls
+
+Program :
+
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
